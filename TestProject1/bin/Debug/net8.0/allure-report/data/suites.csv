@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu May 30 14:39:48 EEST 2024","Thu May 30 14:39:50 EEST 2024","2257","","","","Tests","GetApiTest","GetApiTest",""
+"passed","Thu May 30 15:32:49 EEST 2024","Thu May 30 15:32:50 EEST 2024","318","","","","Tests","PostAPITest","PostAPITest",""
+"passed","Thu May 30 15:32:49 EEST 2024","Thu May 30 15:32:49 EEST 2024","858","","","","Tests","HomepageHasPlaywrightInTitleAndGetStartedLinkLinkingtoTheIntroPage","HomepageHasPlaywrightInTitleAndGetStartedLinkLinkingtoTheIntroPage",""
+"passed","Thu May 30 13:10:28 EEST 2024","Thu May 30 13:10:30 EEST 2024","2149","","","","Tests","APITest","APITest",""
+"passed","Thu May 30 15:32:46 EEST 2024","Thu May 30 15:32:49 EEST 2024","2141","","","","Tests","GetAPITest","GetAPITest",""
