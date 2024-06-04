@@ -40,14 +40,14 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: Allure report
-        path: ./allure-report
+        path: ./TestProject1/allure-report
         retention-days: 30    
 
     - name: Deploy Report to Github Pages      
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}       
-        publish_dir: ./allure-report
+        publish_dir: ./TestProject1/allure-report
         publish_branch: allure-report
       
  
