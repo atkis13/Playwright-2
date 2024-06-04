@@ -12,11 +12,14 @@ jobs:
     steps:
     - uses: actions/checkout@v3
 
+    - name: Install powershell   
+      run: dotnet tool install --global PowerShell
+
     - name: Build Solution   
       run: dotnet build TestProject1
     
     - name: Ensure browsers are installed
-      run: pwsh bin/Debug/net8.0/playwright.ps1 install --with-deps
+      run: pwsh bin/Debug/net8.0/playwright.ps1 install
     
     - name: Test Solution
       run: dotnet test TestProject1
