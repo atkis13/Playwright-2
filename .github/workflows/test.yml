@@ -47,7 +47,7 @@ jobs:
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}       
-        publish_dir: TestProject1/bin/Debug/net8.0/allure-results
+        publish_dir: TestProject1/bin/Debug/net8.0/allure-report
         publish_branch: allure-report
       
  
