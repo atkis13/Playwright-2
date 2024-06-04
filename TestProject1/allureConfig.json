@@ -1,6 +1,6 @@
 {
     "allure": {
-        "directory": "\\bin\\Debug\net8.0\\allure-results"
+        "directory": ".\\allure-results"
     }
 
 
