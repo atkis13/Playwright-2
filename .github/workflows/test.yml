@@ -35,18 +35,11 @@ jobs:
         # Generate Allure report based on the NUnit XML test results
         ./allure/allure-2.24.0/bin/allure generate TestProject1/bin/Debug/net8.0/allure-results -o allure-report --clean
 
-
-    - name: Upload Allure Report        
-      uses: actions/upload-artifact@v3
-      with:
-        name: Allure report
-        path: ./TestProject1/allure-report
-
     - name: Deploy Report to Github Pages      
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}       
-        publish_dir: ./TestProject1/allure-report
+        publish_dir: TestProject1/bin/Debug/net8.0/allure-results
         publish_branch: allure-report
       
  
