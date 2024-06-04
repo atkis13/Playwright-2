@@ -11,6 +11,9 @@ jobs:
       
     steps:
     - uses: actions/checkout@v3
+
+    - name: Build Solution   
+      run: dotnet build TestProject1
     
     - name: Ensure browsers are installed
       run: pwsh bin/Release/net8.0/playwright.ps1 install --with-deps
