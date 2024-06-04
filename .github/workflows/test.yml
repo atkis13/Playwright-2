@@ -23,5 +23,22 @@ jobs:
     
     - name: Test Solution
       run: dotnet test TestProject1
+
+    - name: Download Allure Command-line Tool      
+      run: |
+         # Download the Allure command-line tool
+         wget https://github.com/allure-framework/allure2/releases/download/2.24.0/allure-2.24.0.zip -O allure.zip
+         unzip allure.zip -d allure
+         
+    - name: Generate Allure Report      
+      run: |
+        # Generate Allure report based on the NUnit XML test results
+        ./allure/allure-2.24.0/bin/allure generate TestProject1/bin/Debug/net8.0/allure-results -o allure-report --clean
+
+    - name: Deploy Report to Github Pages      
+      uses: peaceiris/actions-gh-pages@v3
+      with:         
+        publish_dir: TestProject1/bin/Debug/net8.0/allure-report
+        publish_branch: allure-report
       
  
