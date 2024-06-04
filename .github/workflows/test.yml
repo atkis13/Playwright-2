@@ -14,6 +14,6 @@ jobs:
     
     
     - name: Test Solution
-      run: dotnet test
+      run: dotnet test TestProject1
       
  
