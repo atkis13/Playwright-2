@@ -2,7 +2,7 @@ name: test
 
 on:
   push:
-    breanches:
+    branches:
       - 'main'
 
 jobs:
@@ -19,7 +19,7 @@ jobs:
       run: dotnet build TestProject1
     
     - name: Ensure browsers are installed
-      run: pwsh bin/Debug/net8.0/playwright.ps1 install
+      run: pwsh TestProject1/bin/Debug/net8.0/playwright.ps1 install
     
     - name: Test Solution
       run: dotnet test TestProject1
