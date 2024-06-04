@@ -1,0 +1,45 @@
+{
+  "uuid": "f6ada736-0d56-4b96-9153-20338312107c",
+  "historyId": "bf139cce342cb37e95380ec2387b450d",
+  "testCaseId": "e5f746f1f9bbc7f8e26f65ab311ddcd0",
+  "fullName": "TestProject1:TestProject1.Tests.PostAPITest()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#4"
+    },
+    {
+      "name": "host",
+      "value": "fv-az1206-16"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "TestProject1"
+    },
+    {
+      "name": "testMethod",
+      "value": "PostAPITest"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests"
+    }
+  ],
+  "links": [],
+  "name": "PostAPITest",
+  "status": "passed",
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1717516857766,
+  "stop": 1717516858291
+}
