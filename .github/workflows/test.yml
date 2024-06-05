@@ -42,6 +42,6 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}       
         publish_dir: TestProject1/allure-results/
         publish_branch: allure-report2
-        keepfiles: true
+        
       
  
