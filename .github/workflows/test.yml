@@ -40,7 +40,7 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: Allure report
-        path: ./TestProject1/allure-report
+        path: TestProject1/allure-report
         retention-days: 30    
 
     - name: Deploy Report to Github Pages      
@@ -48,6 +48,6 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}       
         publish_dir: TestProject1/allure-results
-        publish_branch: allure-report
+        publish_branch: allure-report2
       
  
