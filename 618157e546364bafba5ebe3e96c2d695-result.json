@@ -1,0 +1,45 @@
+{
+  "uuid": "9a40b294-f6f4-4b3c-95a1-f122c27983c3",
+  "historyId": "910c7c514c9aaa6ee3765a72d37f1858",
+  "testCaseId": "045fc93e2aca2a9cef0f2733c8f8b4af",
+  "fullName": "TestProject1:TestProject1.Tests.HomepageHasPlaywrightInTitleAndGetStartedLinkLinkingtoTheIntroPage()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#4"
+    },
+    {
+      "name": "host",
+      "value": "fv-az1106-983"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "TestProject1"
+    },
+    {
+      "name": "testMethod",
+      "value": "HomepageHasPlaywrightInTitleAndGetStartedLinkLinkingtoTheIntroPage"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests"
+    }
+  ],
+  "links": [],
+  "name": "HomepageHasPlaywrightInTitleAndGetStartedLinkLinkingtoTheIntroPage",
+  "status": "passed",
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1717569726721,
+  "stop": 1717569728517
+}
